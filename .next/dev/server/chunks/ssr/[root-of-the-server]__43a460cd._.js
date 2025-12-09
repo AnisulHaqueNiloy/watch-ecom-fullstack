@@ -104,23 +104,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Deskt
 const metadata = {
     title: "TimeKeeper - Premium Watch Store",
     description: "Discover premium watches with elegant design and timeless craftsmanship",
-    generator: "v0.app",
+    generator: "Next Js app",
     icons: {
         icon: [
             {
-                url: "/icon-light-32x32.png",
+                url: "/icon.svg.png",
                 media: "(prefers-color-scheme: light)"
             },
             {
-                url: "/icon-dark-32x32.png",
+                url: "/icon.svg.png",
                 media: "(prefers-color-scheme: dark)"
             },
             {
-                url: "/icon.svg",
+                url: "/icon.svg.png",
                 type: "image/svg+xml"
             }
         ],
-        apple: "/apple-icon.png"
+        apple: "/icon.svg.png"
     }
 };
 function RootLayout({ children }) {
@@ -132,18 +132,18 @@ function RootLayout({ children }) {
                 children,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/layout.tsx",
-                    lineNumber: 44,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/layout.tsx",
-            lineNumber: 42,
+            lineNumber: 46,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/layout.tsx",
-        lineNumber: 41,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }

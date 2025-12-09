@@ -1,72 +1,75 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useEffect, useState } from "react"
-import type { Product } from "@/lib/types"
-import { useRouter } from "next/navigation"
-import { useCart } from "@/hooks/use-cart"
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import type { Product } from "@/lib/types";
+import { useRouter } from "next/navigation";
+import { useCart } from "@/hooks/use-cart";
 
 export default function ShopPage() {
-  const router = useRouter()
-  const { cart, count, addToCart } = useCart()
-  const [products, setProducts] = useState<Product[]>([])
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
-  const [selectedCategory, setSelectedCategory] = useState("watches")
-  const [loading, setLoading] = useState(true)
-  const [userRole, setUserRole] = useState<string | null>(null)
+  const router = useRouter();
+  const { cart, count, addToCart } = useCart();
+  const [products, setProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState("watches");
+  const [loading, setLoading] = useState(true);
+  const [userRole, setUserRole] = useState<string | null>(null);
 
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const response = await fetch("/api/auth/me")
+        const response = await fetch("/api/auth/me");
         if (response.ok) {
-          const data = await response.json()
-          setUserRole(data.role)
+          const data = await response.json();
+          setUserRole(data.role);
         }
       } catch (error) {
-        console.error("Auth check failed:", error)
+        console.error("Auth check failed:", error);
       }
-    }
-    checkAuth()
-    fetchProducts()
-  }, [])
+    };
+    checkAuth();
+    fetchProducts();
+  }, []);
 
   useEffect(() => {
-    const filtered = products.filter((p) => p.category === selectedCategory)
-    setFilteredProducts(filtered)
-  }, [selectedCategory, products])
+    const filtered = products.filter((p) => p.category === selectedCategory);
+    setFilteredProducts(filtered);
+  }, [selectedCategory, products]);
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("/api/products")
-      const data = await response.json()
-      setProducts(data.products || [])
+      const response = await fetch("/api/products");
+      const data = await response.json();
+      setProducts(data.products || []);
     } catch (error) {
-      console.error("Failed to fetch products:", error)
+      console.error("Failed to fetch products:", error);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   const handleAddToCart = (product: Product) => {
-    addToCart(product, 1)
-  }
+    addToCart(product, 1);
+  };
 
   const handleCartClick = () => {
     if (cart.length > 0) {
-      sessionStorage.setItem("checkout-items", JSON.stringify(cart))
-      router.push("/checkout")
+      sessionStorage.setItem("checkout-items", JSON.stringify(cart));
+      router.push("/checkout");
     }
-  }
+  };
 
-  const categories = ["watches", "headphones"]
+  const categories = ["watches"];
 
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="bg-card border-b border-border sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <Link href="/" className="font-serif text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
+          <Link
+            href="/"
+            className="font-serif text-2xl font-bold text-primary hover:opacity-80 transition-opacity"
+          >
             TimeKeeper
           </Link>
           <div className="flex gap-4 items-center">
@@ -74,7 +77,10 @@ export default function ShopPage() {
               Home
             </Link>
             {userRole === "user" && (
-              <Link href="/dashboard" className="text-foreground hover:text-primary">
+              <Link
+                href="/dashboard"
+                className="text-foreground hover:text-primary"
+              >
                 Dashboard
               </Link>
             )}
@@ -94,7 +100,9 @@ export default function ShopPage() {
         {/* Header */}
         <div className="mb-12">
           <h1 className="font-serif text-4xl font-bold mb-2">Our Collection</h1>
-          <p className="text-muted-foreground">Explore our premium watches and accessories</p>
+          <p className="text-muted-foreground">
+            Explore our premium watches and accessories
+          </p>
         </div>
 
         <div className="grid md:grid-cols-4 gap-8">
@@ -108,7 +116,9 @@ export default function ShopPage() {
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
                     className={`block w-full text-left px-4 py-2 rounded transition ${
-                      selectedCategory === cat ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                      selectedCategory === cat
+                        ? "bg-primary text-primary-foreground"
+                        : "hover:bg-muted"
                     }`}
                   >
                     {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -121,9 +131,13 @@ export default function ShopPage() {
           {/* Products Grid */}
           <div className="md:col-span-3">
             {loading ? (
-              <p className="text-center text-muted-foreground">Loading products...</p>
+              <p className="text-center text-muted-foreground">
+                Loading products...
+              </p>
             ) : filteredProducts.length === 0 ? (
-              <p className="text-center text-muted-foreground">No products in this category</p>
+              <p className="text-center text-muted-foreground">
+                No products in this category
+              </p>
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredProducts.map((product) => (
@@ -143,11 +157,21 @@ export default function ShopPage() {
                       )}
                     </div>
                     <div className="p-4">
-                      <h3 className="font-semibold mb-1 line-clamp-2">{product.name}</h3>
-                      <p className="text-sm text-muted-foreground mb-3 line-clamp-2">{product.description}</p>
+                      <h3 className="font-semibold mb-1 line-clamp-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+                        {product.description}
+                      </p>
                       <div className="flex justify-between items-center mb-4">
-                        <span className="font-serif text-lg font-bold text-accent">${product.price}</span>
-                        <span className={`text-sm ${product.inStock ? "text-green-600" : "text-red-600"}`}>
+                        <span className="font-serif text-lg font-bold text-accent">
+                          ${product.price}
+                        </span>
+                        <span
+                          className={`text-sm ${
+                            product.inStock ? "text-green-600" : "text-red-600"
+                          }`}
+                        >
                           {product.inStock ? "In Stock" : "Out of Stock"}
                         </span>
                       </div>
@@ -176,5 +200,5 @@ export default function ShopPage() {
         </div>
       </main>
     </div>
-  )
+  );
 }
