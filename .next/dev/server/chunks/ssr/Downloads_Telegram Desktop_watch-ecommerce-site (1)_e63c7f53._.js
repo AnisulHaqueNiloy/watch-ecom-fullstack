@@ -150,8 +150,7 @@ function ShopPage() {
         }
     };
     const categories = [
-        "watches",
-        "headphones"
+        "watches"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-background",
@@ -179,7 +178,7 @@ function ShopPage() {
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 userRole === "user" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -188,7 +187,7 @@ function ShopPage() {
                                     children: "Dashboard"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this),
                                 userRole === "user" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -200,13 +199,13 @@ function ShopPage() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 88,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                            lineNumber: 72,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
@@ -231,7 +230,7 @@ function ShopPage() {
                                 children: "Our Collection"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                lineNumber: 96,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -239,13 +238,13 @@ function ShopPage() {
                                 children: "Explore our premium watches and accessories"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                lineNumber: 97,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                        lineNumber: 95,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -261,7 +260,7 @@ function ShopPage() {
                                             children: "Categories"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -272,23 +271,23 @@ function ShopPage() {
                                                     children: cat.charAt(0).toUpperCase() + cat.slice(1)
                                                 }, cat, false, {
                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 115,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                lineNumber: 102,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -298,14 +297,14 @@ function ShopPage() {
                                     children: "Loading products..."
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 134,
                                     columnNumber: 15
                                 }, this) : filteredProducts.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-center text-muted-foreground",
                                     children: "No products in this category"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 126,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6",
@@ -320,19 +319,19 @@ function ShopPage() {
                                                         className: "w-full h-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 150,
                                                         columnNumber: 25
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-muted-foreground",
                                                         children: "No image"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 156,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 148,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -343,7 +342,7 @@ function ShopPage() {
                                                             children: product.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 160,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -351,7 +350,7 @@ function ShopPage() {
                                                             children: product.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 163,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -365,7 +364,7 @@ function ShopPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                                    lineNumber: 149,
+                                                                    lineNumber: 167,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -373,13 +372,13 @@ function ShopPage() {
                                                                     children: product.inStock ? "In Stock" : "Out of Stock"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                                    lineNumber: 150,
+                                                                    lineNumber: 170,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 166,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,7 +390,7 @@ function ShopPage() {
                                                                     children: "View Details"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                                    lineNumber: 155,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 userRole === "user" && product.inStock && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Telegram__Desktop$2f$watch$2d$ecommerce$2d$site__$28$1$292f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -400,47 +399,47 @@ function ShopPage() {
                                                                     children: "Add to Cart"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                                    lineNumber: 162,
+                                                                    lineNumber: 186,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 178,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                                    lineNumber: 145,
+                                                    lineNumber: 159,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, product._id, true, {
                                             fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 144,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                                lineNumber: 122,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                        lineNumber: 100,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/Telegram Desktop/watch-ecommerce-site (1)/app/shop/page.tsx",
-                lineNumber: 93,
+                lineNumber: 99,
                 columnNumber: 7
             }, this)
         ]
